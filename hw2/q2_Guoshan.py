@@ -220,7 +220,7 @@ def loadEpinions(filename):
 
 def main():
   # load Graph and Signs
-  filename = "data/epinions-signed.txt"
+  filename = "epinions-signed.txt"
   epinionsNetwork = loadEpinions(filename)
   signs = loadSigns(filename)
 
